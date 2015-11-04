@@ -1,0 +1,31 @@
+{
+  "name": "logmark",
+  "version": "0.0.0",
+  "description": "A log benchmarking suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/.bin/_mocha test/*.tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/winstonjs/logmark.git"
+  },
+  "keywords": [
+    "logging",
+    "winston",
+    "bunyan",
+    "benchmark"
+  ],
+  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winstonjs/logmark/issues"
+  },
+  "homepage": "https://github.com/winstonjs/logmark#readme",
+  "dependencies": {
+    "benchmark": "~1.0.0",
+    "bunyan": "~1.5.1",
+    "microtime": "~2.0.0",
+    "winston": "~2.1.0"
+  }
+}
