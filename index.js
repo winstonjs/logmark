@@ -11,9 +11,6 @@ var suite = require('./lib/console.bench')();
 suite.on('cycle', function cycle(e) {
   var details = e.target;
 
-  // console.dir(e);
-  // console.dir(details);
-
   console.log('Finished benchmarking: "%s"', details.name);
   console.log('Count (%d), Cycles (%d), Elapsed (%ds), Hz (%d)'
     , details.count
@@ -22,9 +19,7 @@ suite.on('cycle', function cycle(e) {
     , details.hz
   );
 }).on('complete', function completed() {
-  console.log('Benchmark: "%s" is the fastest.'
-    , this.filter('fastest').pluck('name')
-  );
+  console.log('Benchmark: "%j" is the fastest.', this.filter('fastest')[0].name);
 
   var that = this;
   this.forEach(function (left, i) {

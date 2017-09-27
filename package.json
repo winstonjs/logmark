@@ -23,9 +23,12 @@
   },
   "homepage": "https://github.com/winstonjs/logmark#readme",
   "dependencies": {
-    "benchmark": "~1.0.0",
-    "bunyan": "~1.5.1",
-    "microtime": "~2.0.0",
-    "winston": "~2.1.0"
+    "benchmark": "^2.1.4",
+    "bunyan": "^1.5.1",
+    "microtime": "^2.0.0",
+    "pino": "^4.7.2",
+    "winston": "git@github.com:winstonjs/winston#3.x",
+    "winston1": "^1.1.2",
+    "winston2x": "^2.1.1"
   }
 }
