@@ -27,7 +27,7 @@
     "bunyan": "^1.5.1",
     "microtime": "^2.0.0",
     "pino": "^4.7.2",
-    "winston": "git@github.com:winstonjs/winston#3.x",
+    "winston": "3.0.0-rc1",
     "winston1": "^1.1.2",
     "winston2x": "^2.1.1"
   }
